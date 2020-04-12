@@ -5,6 +5,14 @@
 # Skip AA, CC etc.
 # Also print out how many combinations there are
 
+aa = 'ACDEFGHIKLMNPQRSTVWY'
+count = 0
+for i in range(0, len(aa)):
+	for j in range(i+1, len(aa)):
+		print(aa[i], aa[j])
+		count += 1
+print(count)
+
 
 """
 A C
